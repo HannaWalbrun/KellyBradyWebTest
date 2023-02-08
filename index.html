@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Everybody's Exploring</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+<header>
+<div class="topnav">
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a class="nav-logo" href="index.html"><img src="img/main-logo-nav.png"></a></div>
+            <i class='bx bx-menu'></i>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <i class='bx bx-x' ></i>
+                </div>
+                <ul class="links">
+                    <li>
+                    <a href="#">ABOUT US</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                        <li class="more">
+                            <span><a href="#">MEET OUR TEAM</a>
+                            <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                            </span>
+                            <ul class="more-sub-menu sub-menu">
+                                <li><a href="#">GROUND TEAM</a></li>
+                                <li><a href="#">SPACE TEAM</a></li>
+                            </ul>
+                            </li>
+                        <li><a href="#">COST FOR EXPLORATION</a></li>
+                        <li><a href="#">SPACE SUITS</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+</header>
+    
+<section id="home-header">
+    <div class="hero-txt">
+        <h1 class="home-header">EXPLORATION</h1>
+        <h2 class="home-subhead">SEEKING THE NEXT BEYOND</h2>
+    </div>
+    <img src="img/hero.jpg" alt="Hero Image" class="hero-img"/>
+    <img src="img/mobile-hero.png" alt="Hero Image" class="mobile-hero-img"/>
+</section>
+    
+<section id="home-prep">
+    <h3 class="page-header">PREPPING FOR LAUNCH</h3>
+    <div class="launchContainer flex-direction">
+        <div class="launchDiv1">
+            <p class="home-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit elit, euismod a nulla vel, ullamcorper convallis odio. Ut eget pharetra tellus. Fusce vel accumsan massa, sit amet tristique dui. Vestibulum sed enim quis nunc sodales euismod. Donec pulvinar, purus id tristique faucibus, risus magna sodales dui, eu consequat ligula purus sit amet massa. Donec non ante luctus, pharetra ipsum eget, blandit velit. Morbi sit amet suscipit ipsum. Suspendisse accumsan turpis vitae lectus porttitor vehicula. Duis ac tincidunt magna. Donec condimentum pulvinar enim, sit amet pharetra nunc molestie sed. Sed eu arcu nec neque lobortis suscipit.</p>
+        </div>
+        <div class="launchDiv2"><img title="Solar System" src="img/prepping-for-launch.png" alt="Solar System" width="100%" /></div>
+    </div>
+    
+    <p class="home-txt">Aliquam id efficitur quam. Donec tristique, orci vel vestibulum gravida, libero orci tempus turpis, vitae vehicula lectus est nec mi. Maecenas in magna lobortis, porttitor odio non, dignissim tortor. Phasellus et lorem placerat, hendrerit ligula eu, sollicitudin mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean sit amet tristique orci, nec convallis dui. Sed ornare ante a sodales gravida. Ut ligula tortor, elementum ut suscipit tristique, aliquet vel tellus. Maecenas placerat purus orci, vitae tempor enim fringilla aliquet. </p>
+    <h3 class="page-header">SUPPLIES NEEDED</h3>
+    <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Curabitur ut augue cursus, consequat lectus sit amet, semper nisl.</li>
+        <li>Suspendisse congue ipsum et arcu finibus, et imperdiet sapien malesuada.</li>
+        <li>Ut vehicula elit vitae dapibus interdum.</li>
+    </ul>
+</section>
+
+<section id="home-map">
+    <div id="map"></div>
+</section>
+
+<section id="home-team">
+    <h3 class="page-header">MEET YOUR TEAM</h3>
+    <div class="teamContainer flex-direction">
+        <div class="teamDiv1">
+            <img id="team-captain" src="img/meet-your-team-captian.png" alt="Captain" width="100%" />
+            <img id="team-alien" src="img/meet-your-team-alien.png" alt="Alien" width="100%" />
+            <img id="team-monkey" src="img/meet-your-team-monkey.png" alt="Monkey" width="100%" />
+        </div>
+        <div class="teamDiv2">
+            <div id="captain-txt">
+                <p class="team-name">CAPTAIN</p>
+                <p class="team-txt">Aenean aliquam purus eros, fringilla blandit nulla tincidunt ac. Proin feugiat dictum nisl, at vestibulum nibh cursus non. Integer convallis vestibulum elementum. Praesent egestas, tortor id commodo viverra, quam nisl imperdiet mi, vel dignissim diam risus eget libero. Aenean eget magna ultrices, scelerisque velit pretium, dictum magna. Maecenas viverra semper vehicula. Ut quis pellentesque lectus. Nunc ultrices rutrum ipsum vel sodales. Nunc volutpat a metus et viverra.</p>
+            </div>
+            <div id="alien-txt">
+                <p class="team-name">TRUSTWORTHY ALIEN</p>
+                <p class="team-txt">Nam ante ante, auctor id viverra ac, pretium quis lectus. Sed ac sem sem. Aliquam ullamcorper mollis ligula. Quisque vitae urna maximus, convallis libero id, mollis diam. Sed tempor ipsum et vestibulum porttitor. Mauris at lorem sed orci pellentesque viverra a eu orci. Morbi placerat et elit non pellentesque. Duis ut sapien suscipit purus eleifend convallis a quis libero. Integer id quam blandit, faucibus ante ac, faucibus lacus. Proin ac commodo metus. Quisque sed semper nunc.</p>
+            </div>
+            <div id="monkey-txt">
+                <p class="team-name">SPACE MONKEY</p>
+                <p class="team-txt">Vestibulum placerat massa convallis ante eleifend, sed fringilla ipsum malesuada. Proin placerat vulputate vestibulum. Praesent nec tempor lacus, eu vestibulum ligula. Vestibulum vestibulum iaculis arcu. Sed libero nisi, efficitur quis eleifend ac, commodo eget purus. Donec porta quis diam sed viverra. Donec id mattis dui, sit amet convallis ante. Nam quis neque at quam semper molestie. In fringilla euismod purus, non eleifend lorem tempor et. Donec nec tincidunt ligula, nec scelerisque lacus. Pellentesque eget porta dui. Suspendisse accumsan non nulla quis dictum. Nullam suscipit convallis convallis.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="home-line">
+    <div class="line-contain">
+        <h3 class="page-header2">GET IN LINE</h3>
+        <p class="home-txt2">Morbi sit amet sem lobortis, porta nunc non, elementum risus. Mauris scelerisque enim in turpis pellentesque, eu luctus augue blandit. Duis laoreet mi vitae risus sodales porta.</p>
+        <div id="login-form">
+            <div class="form-contain">
+                <form id="myForm">
+                    <div class="formContainer flex-direction">
+                        <div class="formDiv1">
+                            <label for="name">Name&#42;</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="address">Address&#42;</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                        <div class="formDiv1">
+                            <label for="phone-number">Phone Number&#42;</label>
+                            <input type="text" id="phone-number" name="phone-number" required>
+                            <label for="state">State&#42;</label>
+                            <select id="state" name="state" required>
+                                <option class="select-state" value=""></option>
+                                <option value="alabama">Alabama</option>
+                                <option value="alaska">Alaska</option>
+                                <option value="arizona">Arizona</option>
+                                <option value="arkansas">Arkansas</option>
+                                <option value="california">California</option>
+                                <option value="colorado">Colorado</option>
+                                <option value="connecticut">Connecticut</option>
+                                <option value="delaware">Delaware</option>
+                                <option value="florida">Florida</option>
+                                <option value="georgia">Georgia</option>
+                                <option value="hawaii">Hawaii</option>
+                                <option value="idaho">Idaho</option>
+                                <option value="illinois">Illinois</option>
+                                <option value="indiana">Indiana</option>
+                                <option value="iowa">Iowa</option>
+                                <option value="kansas">Kansas</option>
+                                <option value="kentucky">Kentucky</option>
+                                <option value="louisiana">Louisiana</option>
+                                <option value="maine">Maine</option>
+                                <option value="maryland">Maryland</option>
+                                <option value="massachusetts">Massachusetts</option>
+                                <option value="michigan">Michigan</option>
+                                <option value="minnesota">Minnesota</option>
+                                <option value="mississippi">Mississippi</option>
+                                <option value="missouri">Missouri</option>
+                                <option value="montana">Montana</option>
+                                <option value="nebraska">Nebraska</option>
+                                <option value="nevada">Nevada</option>
+                                <option value="new hampshire">New Hampshire</option>
+                                <option value="new jersey">New Jersey</option>
+                                <option value="new mexico">New Mexico</option>
+                                <option value="new york">New York</option>
+                                <option value="north carolina">North Carolina</option>
+                                <option value="north dakota">North Dakota</option>
+                                <option value="ohio">Ohio</option>
+                                <option value="oklahoma">Oklahoma</option>
+                                <option value="oregon">Oregon</option>
+                                <option value="pennsylvania">Pennsylvania</option>
+                                <option value="rhode island">Rhode Island</option>
+                                <option value="south carolina">South Carolina</option>
+                                <option value="south dakota">South Dakota</option>
+                                <option value="tennessee">Tennessee</option>
+                                <option value="texas">Texas</option>
+                                <option value="utah">Utah</option>
+                                <option value="vermont">Vermont</option>
+                                <option value="virginia">Virginia</option>
+                                <option value="washington">Washington</option>
+                                <option value="west virginia">West Virginia</option>
+                                <option value="wisconsin">Wisconsin</option>
+                                <option value="wyoming">Wyoming</option>
+                              </select>
+                        </div>
+                        <div class="formDiv1">
+                            <label for="email">Email&#42;</label>
+                            <input type="text" id="email" name="email" required>
+                            <label for="zip">Zip&#42;
+                            </label>
+                            <input type="text" id="zip" name="zip" required>
+                        </div>
+                    </div>
+                        <div class="log-row3">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="10"> </textarea>
+                        </div>
+                        
+                        <button type="button" id="button">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div id="mobile-login-form">
+            <div class="form-contain">
+                <form id="myForm">
+                            <label for="name">Name&#42;</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="address">Address&#42;</label>
+                            <input type="text" id="address" name="address" required>
+                            <label for="phone-number">Phone Number&#42;</label>
+                            <input type="text" id="phone-number" name="phone-number" required>
+                            <label for="state">State&#42;</label>
+                            <select id="state" name="state" required>
+                                <option class="select-state" value=""></option>
+                                <option value="alabama">Alabama</option>
+                                <option value="alaska">Alaska</option>
+                                <option value="arizona">Arizona</option>
+                                <option value="arkansas">Arkansas</option>
+                                <option value="california">California</option>
+                                <option value="colorado">Colorado</option>
+                                <option value="connecticut">Connecticut</option>
+                                <option value="delaware">Delaware</option>
+                                <option value="florida">Florida</option>
+                                <option value="georgia">Georgia</option>
+                                <option value="hawaii">Hawaii</option>
+                                <option value="idaho">Idaho</option>
+                                <option value="illinois">Illinois</option>
+                                <option value="indiana">Indiana</option>
+                                <option value="iowa">Iowa</option>
+                                <option value="kansas">Kansas</option>
+                                <option value="kentucky">Kentucky</option>
+                                <option value="louisiana">Louisiana</option>
+                                <option value="maine">Maine</option>
+                                <option value="maryland">Maryland</option>
+                                <option value="massachusetts">Massachusetts</option>
+                                <option value="michigan">Michigan</option>
+                                <option value="minnesota">Minnesota</option>
+                                <option value="mississippi">Mississippi</option>
+                                <option value="missouri">Missouri</option>
+                                <option value="montana">Montana</option>
+                                <option value="nebraska">Nebraska</option>
+                                <option value="nevada">Nevada</option>
+                                <option value="new hampshire">New Hampshire</option>
+                                <option value="new jersey">New Jersey</option>
+                                <option value="new mexico">New Mexico</option>
+                                <option value="new york">New York</option>
+                                <option value="north carolina">North Carolina</option>
+                                <option value="north dakota">North Dakota</option>
+                                <option value="ohio">Ohio</option>
+                                <option value="oklahoma">Oklahoma</option>
+                                <option value="oregon">Oregon</option>
+                                <option value="pennsylvania">Pennsylvania</option>
+                                <option value="rhode island">Rhode Island</option>
+                                <option value="south carolina">South Carolina</option>
+                                <option value="south dakota">South Dakota</option>
+                                <option value="tennessee">Tennessee</option>
+                                <option value="texas">Texas</option>
+                                <option value="utah">Utah</option>
+                                <option value="vermont">Vermont</option>
+                                <option value="virginia">Virginia</option>
+                                <option value="washington">Washington</option>
+                                <option value="west virginia">West Virginia</option>
+                                <option value="wisconsin">Wisconsin</option>
+                                <option value="wyoming">Wyoming</option>
+                              </select>
+                            <label for="email">Email&#42;</label>
+                            <input type="text" id="email" name="email" required>
+                            <label for="zip">Zip&#42;
+                            </label>
+                            <input type="text" id="zip" name="zip" required>
+                        <div class="log-row3">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5"> </textarea>
+                        </div>
+                        <button type="button" id="button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+    
+<footer>
+<div class="footerContainer flex-direction">
+    <div class="footerDiv1">
+        <a href=""><img src="img/logo-footer.png" alt="Footer Logo" width="100%" class="foot-logo" /></a>
+        <a href=""><img class="foot-soc face-icon" src="img/facebook-icon.png" alt="Facebook" width="100%" /></a>
+        <a href=""><img class="foot-soc" src="img/twitter-icon.png" alt="Twitter" width="100%" /></a>
+        <a href=""><img class="foot-soc" src="img/insta-icon.png" alt="Instagram" width="100%" /></a>
+        <a href=""><img class="foot-soc" src="img/linked-icon.png" alt="LinkedIn" width="100%" /></a>
+    </div>
+    <div class="footerDiv2">
+        <p class="footer-txt">&copy;2021 Everybody's Exploring</p>
+        <p class="footer-txt">Privacy Policy</p>
+        <p class="footer-txt">Terms &amp; Conditions</p>
+    </div>
+</div>
+</footer>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALlq8LkSmMiFfUq547PcIDDS7qAkZoMPo&callback=initMap"></script>
+</body>
+</html>
